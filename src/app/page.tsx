@@ -1,15 +1,8 @@
-import { Button } from '@/components/Button'
-
 export default function Home() {
   return (
-    <>
-      <div>
-        <h1>
-          Hello World@
-          <Button />
-        </h1>
-      </div>
-      <div className="text-7xl">textao</div>
-    </>
+    <div className="h-screen bg-zinc-950 p-6 text-zinc-50">
+      <h1 className="text-4xl font-bold">Sua cápsula do tempo</h1>
+      <h1 className="font-alt text-4xl font-bold">Sua cápsula do tempo</h1>
+    </div>
   )
 }
