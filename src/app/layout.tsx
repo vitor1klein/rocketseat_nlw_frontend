@@ -5,6 +5,7 @@ import {
 } from 'next/font/google'
 
 const roboto = Roboto({ subsets: ['latin'], variable: '--font-roboto' })
+
 const baiJamjuree = BaiJamjuree({
   subsets: ['latin'],
   weight: '700',
@@ -17,11 +18,7 @@ export const metadata = {
     'Created during the Next Level Week #4 - Rocketseat with React, Next.js, Typescript and TailwindCSS',
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body
